@@ -1,23 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
+import Button from "./components/common/ButtonMain/Button";
+import ButtonLike from "./components/common/ButtonLike/ButtonLike";
+import {ReactComponent as LikeIcon} from "./img/svg/like.svg";
+import {ReactComponent as DislikeIcon} from "./img/svg/dislike.svg";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <Button discount="Со скидкой 29%">Добавить к заказу</Button>
+        <ButtonLike icon={LikeIcon} bgColor="#76BC21"/>
+        <ButtonLike icon={DislikeIcon} bgColor="#003595" />
     </div>
   );
 }
