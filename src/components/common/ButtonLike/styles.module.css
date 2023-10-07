@@ -1,4 +1,4 @@
-.likeBtn {
+.wrapper {
     background: #76BC21;
     color: #FFFFFF;
     display: flex;
@@ -6,12 +6,11 @@
     justify-content: center;
     width: 150px;
     height: 45px;
-    margin-left: 400px;
     border-radius: 5px;
     cursor: pointer;
 }
 
-.likeBtn > span {
+.wrapper > span {
     margin-left: 10px;
 }
 

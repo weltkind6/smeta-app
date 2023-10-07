@@ -1,9 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+}
+
 .wrapper {
-    padding: 0 15px;
     outline: 1px solid;
     width: 375px;
     margin: 0 auto;
     font-family: Roboto, sans-serif;
     color: #222222;
+}
+
+.container {
+    padding: 0 15px;
 }
 

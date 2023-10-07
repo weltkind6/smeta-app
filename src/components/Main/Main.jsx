@@ -8,10 +8,12 @@ import Characteristics from "../Characteristics/Characteristics";
 const Main = () => {
     return (
         <main className={styles.wrapper}>
-            <Header/>
-            <Offer/>
-            <Characteristics />
-            <Recommendations />
+            <div className={styles.container}>
+                <Header/>
+                <Offer/>
+                <Characteristics />
+                <Recommendations />
+            </div>
         </main>
     );
 };
