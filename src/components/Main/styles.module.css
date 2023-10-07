@@ -1,0 +1,9 @@
+.wrapper {
+    padding: 0 15px;
+    outline: 1px solid;
+    width: 375px;
+    margin: 0 auto;
+    font-family: Roboto, sans-serif;
+    color: #222222;
+}
+

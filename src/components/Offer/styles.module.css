@@ -1,0 +1,48 @@
+.wrapper {
+    text-align: left;
+}
+
+
+.estimate > div {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.estimate > div:first-child {
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 700;
+}
+
+.estimate > div:last-child {
+    margin-bottom: 0;
+}
+
+/*offerPrice*/
+.offerPrice {
+    border: 1px solid #76BC21;
+    border-radius: 5px;
+}
+
+.offerPrice > span:first-child {
+    color: #F9326D;
+    font-size: 25px;
+    line-height: 25px;
+    font-weight: 700;
+}
+
+.offerPrice > div {
+    text-decoration: line-through;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    text-decoration-color: #F9326D;
+}
+
+.offerPrice > span:last-child {
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 400;
+}
