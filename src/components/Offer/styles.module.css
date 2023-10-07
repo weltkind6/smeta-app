@@ -1,12 +1,12 @@
 .wrapper {
     text-align: left;
+    font-weight: 400;
 }
 
 
 .estimate > div {
     font-size: 14px;
     line-height: 20px;
-    font-weight: 400;
     margin-bottom: 10px;
 }
 
@@ -22,8 +22,10 @@
 
 /*offerPrice*/
 .offerPrice {
+    margin-top: 20px;
     border: 1px solid #76BC21;
     border-radius: 5px;
+    padding: 10px 0 10px 20px;
 }
 
 .offerPrice > span:first-child {
@@ -35,14 +37,46 @@
 
 .offerPrice > div {
     text-decoration: line-through;
+    text-decoration-color: #F9326D;
     font-weight: 700;
     font-size: 18px;
     line-height: 25px;
-    text-decoration-color: #F9326D;
 }
 
 .offerPrice > span:last-child {
     font-size: 16px;
     line-height: 25px;
-    font-weight: 400;
+}
+
+.note {
+    color: #F9326D;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    margin: 15px 0 20px 0;
+}
+
+.note > span {
+    text-transform: uppercase;
+}
+
+.goods {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.title {
+    margin: 15px 0 15px 0;
+    padding: 20px 0 20px 15px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    border-bottom: 1px solid #B5BBC2;
+}
+
+/*photo*/
+.photo {
+   cursor: pointer;
+    margin: 10px 0 10px;
 }
