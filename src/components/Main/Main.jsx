@@ -16,8 +16,8 @@ const Main = () => {
                 <Characteristics />
                 <Recommendations />
                 <AskedQuestions />
-                <Footer />
             </div>
+            <Footer />
         </main>
     );
 };
