@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './styles.module.css';
-import ButtonLike from "../ButtonLike/ButtonLike";
+import ButtonLike from "../common/ButtonLike/ButtonLike";
 
 const QuestionBlock = () => {
     return (

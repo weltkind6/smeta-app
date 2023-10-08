@@ -1,0 +1,31 @@
+.wrapper {
+    text-align: left;
+    margin: 25px 0 20px 0;
+}
+
+.wrapper > h4 {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.links > a {
+    color: #003595;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+
+.links > a:last-child {
+    margin-bottom: 0;
+}
+

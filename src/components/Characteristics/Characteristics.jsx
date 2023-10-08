@@ -3,13 +3,12 @@ import styles from './styles.module.css'
 import ProductCard from "../common/ProductCard/ProductCard";
 import Goods from "../common/Goods/Goods";
 import Name from "../common/Name/Name";
-import QuestionBlock from "../common/QuestionBlock/QuestionBlock";
-import ButtonLike from "../common/ButtonLike/ButtonLike";
+import QuestionBlock from "../QuestionBlock/QuestionBlock";
 
 const Characteristics = () => {
     return (
         <>
-            <div className={styles.wrapper}>
+            <section className={styles.wrapper}>
                 <div className={styles.characteristics}>
                     <span>Характеристики</span>
                     <span>Okonti Lumo; 2830×2882</span>
@@ -52,7 +51,7 @@ const Characteristics = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
             <ProductCard name="Лоджия1" price="37 000"/>
             <Goods price="25 000" title="Комплектующие"/>
             <Name/>

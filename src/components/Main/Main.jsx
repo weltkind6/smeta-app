@@ -4,6 +4,8 @@ import Header from "../Header/Header";
 import Offer from "../Offer/Offer";
 import Recommendations from "../Recommendations/Recomendations";
 import Characteristics from "../Characteristics/Characteristics";
+import AskedQuestions from "../AskedQuestions/AskedQuestions";
+import Footer from "../Footer/Footer";
 
 const Main = () => {
     return (
@@ -13,6 +15,8 @@ const Main = () => {
                 <Offer/>
                 <Characteristics />
                 <Recommendations />
+                <AskedQuestions />
+                <Footer />
             </div>
         </main>
     );
