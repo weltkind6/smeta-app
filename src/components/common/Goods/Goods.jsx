@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const Goods = ({price, title}) => {
     return (
         <div className={styles.wrapper}>
-            {title} ............... <span>{price} ₽</span>
+            {title} ............ <span>{price} ₽</span>
         </div>
     );
 };
