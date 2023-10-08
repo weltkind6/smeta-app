@@ -1,11 +1,15 @@
 import React from 'react';
 import logo from "../../img/footer-logo.png";
 import styles from './styles.module.css';
+import UpArrow from "../common/UpArrow/UpArrow";
 
 const Footer = () => {
     return (<div className={styles.wrapper}>
             <footer className={styles.footer}>
-                <img src={logo} alt="logo"/>
+                <div className={styles.logo}>
+                    <img src={logo} alt="logo"/>
+                    <UpArrow />
+                </div>
                 <div className={styles.address}>
                     <span className={styles.title}>Юридический адрес</span>
                     <p className={styles.info}>

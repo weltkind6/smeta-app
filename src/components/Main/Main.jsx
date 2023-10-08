@@ -6,6 +6,7 @@ import Recommendations from "../Recommendations/Recomendations";
 import Characteristics from "../Characteristics/Characteristics";
 import AskedQuestions from "../AskedQuestions/AskedQuestions";
 import Footer from "../Footer/Footer";
+import MyComponent from "../MyComponent/MyComponent";
 
 const Main = () => {
     return (
@@ -16,6 +17,7 @@ const Main = () => {
                 <Characteristics />
                 <Recommendations />
                 <AskedQuestions />
+                <MyComponent />
             </div>
             <Footer />
         </main>

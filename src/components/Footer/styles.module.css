@@ -5,13 +5,20 @@
 .footer {
   background: #003595;
   text-align: left;
-  padding: 50px 0 25px 15px;
+  padding: 50px 15px 25px 15px;
 }
 
-.footer > img {
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo > img:first-child {
   width: 220px;
   height: 55px;
 }
+
 
 .address {
   width: 254px;
